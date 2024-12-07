@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="mdb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container mt-5">
+        <button class="btn btn-info" data-toggle="modal" data-target="#register-modal">Register</button>
+        <div class="modal" id="register-modal">
+            <div class="modal-dialog">
+                <div class="modal-content animated swing">
+                    <div class="modal-header bg-warning text-black">
+                        <h3>Register Here</h3>
+                        <button class="close" data-dismiss="modal">
+                            <i class="fa fa-times-circle"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-dark">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Confirm Password">
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="4" class="form-control" placeholder="About Yourself"></textarea>   
+                            </div>
+                            <div>
+                                <input type="submit" value="Register" class="btn btn-primary">
+                                <a href="#" class="btn btn-danger" data-dismiss="modal">Close</a>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="mdb.js"></script>
+</body>
+</html>
